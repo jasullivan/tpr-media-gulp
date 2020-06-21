@@ -1,0 +1,43 @@
+.tpr-article-content {
+    padding: 3rem 0 3rem;
+    /* color: $color-light-grey; */
+    &__image {
+        padding-bottom: 2rem;
+        width: 100%;
+        max-width:825px;
+        &--nopad {
+            padding-bottom: 0;
+        }
+    }
+    &__img-caption {
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+        font-style: italic;
+    }
+    &__subtitle {
+        font-size: 2rem;
+        padding: 1rem 0 0.5rem;
+        text-align: center;
+    }
+    &__details {
+        font-size: $default-font-size;
+        text-align: center;
+        padding-bottom: 0.25rem;
+    }
+    &__paragraph {
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+    }
+    &__link {
+        color: $tpr-blue;
+        &:hover {
+            color: $tpr-light-blue;  
+        }
+    }
+    /* you tube and google map styling */
+    iframe {
+        width: 100%;
+    }
+}

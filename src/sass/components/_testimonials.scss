@@ -1,0 +1,18 @@
+.testimonial-wrapper {
+    background: $color-vlight-grey;
+    width: 100%;
+    .testimonials {
+        max-width: 120rem;
+        margin: 0 auto;
+        p {
+            vertical-align: middle;
+            text-align: center;
+            transition: height 0.4s linear;
+            font-size: 2rem;
+            span {
+                color: $tpr-blue;
+            }
+        }
+    }
+}
+

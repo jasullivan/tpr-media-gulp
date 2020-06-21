@@ -1,0 +1,19 @@
+.tpr-news-row {
+    &__content {
+        background-color: $tpr-light-blue;
+        height: 100%;
+        &--grey {
+            background-color: $color-vlight-grey;
+        }
+    }
+    &__title {
+        font-size: 2rem;
+        font-family: 'Amiri', serif;
+    }
+    &__paragraph {
+        font-size: 1.4rem;
+    }
+    &__image {
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+/* home page and contact page */
+.tpr-statement-text {
+    font-size: 2rem;
+    text-align: center;
+    @include respond(md) {
+        font-size: 2.4rem;
+    }
+    &--highlight {
+        color: $tpr-blue;
+    }
+    &__tel {
+        padding-top: 1rem;
+        color: $color-light-grey;
+    }
+}

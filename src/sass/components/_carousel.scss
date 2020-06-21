@@ -1,0 +1,26 @@
+/* slider */
+.slider {
+  width: 100%;
+  max-width: 1200px;
+  /* margin: 20px auto 15px; */
+  margin: 10px auto 15px;
+  text-align: center;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 4rem;
+  height: 4rem;
+  @include respond(lg) {
+    width: 5rem;
+    height: 5rem;
+  }
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 44%;
+}
+.arrow-prev, .arrow-next {
+  font-size: 2rem;
+  /* @include respond(lg) {
+     font-size: 3rem;
+   }  */
+}
+

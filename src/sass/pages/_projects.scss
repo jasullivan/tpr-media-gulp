@@ -1,0 +1,28 @@
+/* ---- gallery-nav ---- */
+.gallery-nav {
+    border-top: 1px solid $color-vlight-grey;
+    border-bottom:  1px solid $color-vlight-grey;
+    text-align: center;
+    &__button {
+        padding: 10px 18px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    @include clearfix();
+}
+button:active, button:focus {
+    /* outline: none; */
+    outline-color: $tpr-blue;
+    border: none;
+}
+/* ---- gallery-nav ---- */
+
+/* ---- isotope ---- */
+.grid {
+    @include clearfix();
+    width: 100%;
+    margin: 0 auto;
+}
+/* ---- isotope ---- */

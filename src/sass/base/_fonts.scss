@@ -1,0 +1,63 @@
+/*icon font */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../../fonts/icons/icomoon.eot?lgf7zk');
+    src:  url('../../fonts/icons/icomoon.eot?lgf7zk#iefix') format('embedded-opentype'),
+      url('../../fonts/icons/icomoon.ttf?lgf7zk') format('truetype'),
+      url('../../fonts/icons/icomoon.woff?lgf7zk') format('woff'),
+      url('../../fonts/icons/icomoon.svg?lgf7zk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    /*was speak */
+    speak-as: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /*.icon-arrowLeft:before {
+    content: "\e906";
+  }
+  .icon-arrowRight:before {
+    content: "\e907";
+  }
+  .icon-cross:before {
+    content: "\e90f";
+  }
+  .icon-hamburger:before {
+    content: "\e917";
+  } */
+  .icon-issuu:before {
+    content: "\e900";
+  }
+  .icon-LinkedIn-black:before {
+    content: "\e901";
+  }
+  .icon-Twitter-black:before {
+    content: "\e902";
+  }
+  .icon-arrowLeft:before {
+    content: "\e906";
+  }
+  .icon-arrowRight:before {
+    content: "\e907";
+  }
+  .icon-cross:before {
+    content: "\e90f";
+  }
+  .icon-hamburger:before {
+    content: "\e917";
+  }
+  /*icon font ends */
+  

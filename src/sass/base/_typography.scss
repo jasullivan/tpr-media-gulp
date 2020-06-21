@@ -1,0 +1,68 @@
+/* general typography styling */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: $tpr-color-primary;
+}
+/* h1 {
+     font-size: 6rem;
+ }
+ h2 {
+     font-size: 5rem;
+ }*/
+p, ul {font-size: $default-font-size;}
+button, .button {
+   font-family: 'Open Sans', Arial, sans-serif; 
+   font-size: 1.6rem;
+}
+a, button {
+    color: $tpr-color-primary;
+    &:hover {
+        color: $tpr-light-blue;
+    }
+    &:active {
+        color: $tpr-light-blue;
+    }
+    &.is-checked {
+        color: $tpr-light-blue;
+    }
+}
+ul {
+    list-style: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 2rem;
+    &__hamburger {
+        color: $color-vdark-grey;
+    }
+    &__cross {
+        color: $color-vdark-grey;
+    }
+    &__issuu {
+        font-size: 4rem;
+    }
+    &__carousel {
+        color: $color-white;
+        background: rgba(0,0,0,0.6);
+        width: 6rem;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        &--left {
+            left: 0;
+        }
+        &--right {
+            right: 0;
+        }
+    }
+}
+/* general typography styling */
+
+
+
+

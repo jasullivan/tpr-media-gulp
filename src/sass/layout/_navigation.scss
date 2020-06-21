@@ -1,0 +1,43 @@
+/* nav */
+/* ul.home li.home { font-weight:bold; } */
+ul.nav-about a.nav-about, ul.nav-approach a.nav-approach, ul.nav-clients a.nav-clients, ul.nav-contact a.nav-contact, ul.nav-projects a.nav-projects, ul.nav-news a.nav-news
+ { color: $tpr-light-blue; }
+
+.navbar-light .navbar-toggler {
+    border: none;
+    position: relative;
+    &:hover, &:active, &:focus {
+       border: none; 
+       outline: none;
+    }
+}
+.tpr-nav {
+    max-width:120rem;
+    margin: 0 auto;
+    &__link {
+        font-size: 2.2rem;
+        font-family: 'Amiri', serif;
+        color: $tpr-color-primary;
+        text-decoration: none!important;
+        &:hover {
+            /* replacing bootstrap in-built hover color */
+            color: $tpr-light-blue;
+        }
+    }
+    &__social-icons {
+        position: absolute;
+        right: 8rem;
+        top: 2.5rem;
+        @include respond(lg) {
+            right: 2rem;
+        }
+        .icon {
+            padding: 0 4px;
+            &:hover {
+                color: $tpr-light-blue;
+                cursor: pointer;
+            }
+        }
+    }
+}
+/* nav ends */

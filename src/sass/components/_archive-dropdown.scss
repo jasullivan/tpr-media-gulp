@@ -1,0 +1,67 @@
+
+.archive-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+    padding: 1rem 1rem 1rem 2rem;
+    background: #007397;
+    color:#ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+    h2 {
+        margin-bottom: 0;
+    }
+    &__icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        transition: all 0.25s ease-in;
+    }
+}
+.archive-active, .archive-button:hover {
+  background: #0086af;
+  color:#ffffff;
+}
+.archive-active {
+  background: #0086af;
+  color:#ffffff;
+  .archive-button__icon {
+      -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+.archive-projects {
+    background: #eee;
+    overflow: hidden;
+    max-height: 0;
+    list-style: disc;
+    list-style-position: outside;
+    vertical-align: middle;
+    transition: max-height .5s ease-in;
+        box-sizing: border-box;
+    &__link {
+        /* padding: 0.5rem 1rem 0px 4rem; */
+        margin: 0 3rem;
+        text-decoration:none;
+        color: #222;
+        width: 90%; 
+        @include respond(xlg) {
+            margin: 0 3rem 0 5rem;
+            width: 100%;
+        }
+        &:first-of-type {
+            padding-top: 3rem;
+        }
+        &:last-of-type {
+            padding-bottom: 3rem;
+        }
+        /* h3 {
+           display: inline-block;
+           vertical-align: middle;
+         } */
+    } 
+}

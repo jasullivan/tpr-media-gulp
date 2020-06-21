@@ -1,0 +1,16 @@
+.tpr-team-modal {
+    &__header {
+        border-bottom: 1px solid $tpr-light-blue;
+    }
+    &__title {
+        font-size: 2rem;
+    }
+    &__close {
+        font-size: 2.5rem;
+    }
+    &__picture {
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,17 @@
+.tpr-slider {
+    @include tpr-max-width();
+}
+.carousel-caption {
+    position: absolute;
+    left: 2rem;
+    bottom: 1rem;
+    h2 {
+        font-size: 1.8rem;
+        position: absolute;
+        left: 0rem;
+        bottom: 0rem;
+    }
+}
+
+
+

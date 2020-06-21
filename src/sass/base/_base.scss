@@ -1,0 +1,79 @@
+/* reset for different browsers - normalize and reset not really needed anymore */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /* better to inherit this from body so it's more future proof and is the standard approach */
+    box-sizing: inherit; 
+}
+
+html {
+    /* needs to be % so that it doesn't overide the browser default size. */
+    /* this would mean users wouldn't be able to zoom in */
+    /* font-size: 10px; */
+    /* this defines what 1rem is*/
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box; 
+}
+.fadeLoad {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+/* news/project styling */
+.tpr-article {
+    &__title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    &__paragraph {
+        text-align: center;
+        padding: 3px 0;
+    }
+    &__link {
+        color: $tpr-dark-blue;
+        &:hover {
+            color: $tpr-light-blue;  
+        }
+    }
+}
+.next-prev-buttons {
+    font-size: 1.6rem;
+    padding: 0 1rem;
+    @include clearfix;
+    @include respond(lg) {
+        float: right;
+    }
+    &__prev {
+        float: left;
+        /* color: $color-light-grey; */
+        @include respond(lg) {
+            float: none;
+            padding-right: 15px;
+        }
+    }
+    &__next {
+        float: right;
+        /* color: $color-light-grey; */
+        @include respond(lg) {
+            float: none;
+            padding-left: 5px;
+        }
+    }
+    span {
+        font-size: 1.2rem;
+        padding: 0 3px;
+    }
+}
+/* news/project typography styling */
+
+.red {background: red;}
+.green {background: green;}
+.blue {background: blue;}
+.hide {display: none;}
+.show {display: block;}
+

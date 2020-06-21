@@ -1,0 +1,36 @@
+.tpr-blue-bar {
+    background-color: $tpr-light-blue;
+    margin: 0 -1.5rem;
+    color: $tpr-color-primary;
+    padding: 3rem;
+    @include respond(xlg) {
+        padding: 3rem 0;
+        /* padding: 0.5rem 0 3rem; */
+    }
+    &__title {
+        font-size: 2rem;  
+        line-height: 1.4;
+        margin: 0 auto; 
+        text-align: center;
+        max-width: 110rem;
+        font-weight: 400;
+        @include respond(xlg) {
+            /* padding-bottom: 1rem; */
+        }
+        &--no-content {
+            padding-bottom: 0rem;
+        }
+    }
+    &__content {
+        display: none;
+        @include respond(xlg) {
+            font-weight: 300;
+            display: block;
+            font-size: 2rem;  
+            line-height: 1.4;
+            margin: 0 auto; 
+            text-align: center;
+            max-width: 110rem;
+        }
+    }
+}

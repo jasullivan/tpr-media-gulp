@@ -1,0 +1,22 @@
+.tpr-footer {
+    @include tpr-max-width();
+    color: $color-white;
+    &__content {
+        text-align: center;
+        &--left {
+            text-align: center;
+            padding-top: 0;
+            @include respond(md) {
+                text-align: left;
+                padding-top: 14.4rem;
+            }
+        }
+    }
+    &__logo-main {
+        max-width: 5rem;
+    }
+    &__tel-link {
+        color: $color-white;
+        font-size: $default-font-size;;
+    }
+}
