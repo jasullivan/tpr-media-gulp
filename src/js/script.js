@@ -25,16 +25,12 @@ navButton.addEventListener("click", function() {
 /*******************************
 // fade in
 ********************************/
-window.onload = function () {
-    setTimeout(function () {
-        //Re-enable mouse/touch events on the #next button
-        document.querySelector(".fadeLoad").style.pointerEvents = 'auto';
-
-        //Show the #.fadeLoad button
-        //Since opacity style is transitioned, the opacity change will automatically trigger the transition.
-        document.querySelector(".fadeLoad").style.opacity = 1;
-    }, 100);
-};
+// window.onload = function () {
+//     setTimeout(function () {
+//         document.querySelector(".fadeLoad").style.pointerEvents = 'auto';
+//         document.querySelector(".fadeLoad").style.opacity = 1;
+//     }, 500);
+// };
 /*******************************
 // fade in ends
 ********************************/

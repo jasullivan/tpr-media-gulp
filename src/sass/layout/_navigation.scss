@@ -11,6 +11,12 @@ ul.nav-about a.nav-about, ul.nav-approach a.nav-approach, ul.nav-clients a.nav-c
        outline: none;
     }
 }
+.navbar-brand {
+    padding: 0;
+    height: 64px;
+    width: 50px;
+    background: $color-white;
+}
 .tpr-nav {
     max-width:120rem;
     margin: 0 auto;

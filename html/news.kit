@@ -12,7 +12,7 @@
         crossorigin="anonymous">
     <script src="vendors/lazysizes.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="dist/css/main.min.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/slick.css" />
 </head>
 <body>
 
@@ -28,13 +28,17 @@
         </div>  
     </header>
     <!-- blue header bar -->
-    <div class="fadeLoad">
+
+    <!-- <div id="loader"></div> -->
+
+    <!-- <div class="fadeLoad"> -->
     <!-- news section -->
     <div class="container">
 
         <div class="row tpr-news-row pt-5 pb-3 no-gutters">
             <div class="col-xl-8 pr-xl-3">
-                <img data-src="dist/img/news/andre_simon_2019-news.jpg" src="dist/img/news/andre_simon_2019-news-preview.jpg" alt="Diana Henry and Meera Sodha at the André Simon Food and Drink book awards for 2018" class="tpr-news-row__image lazyload">
+                <!-- <img data-src="dist/img/news/andre_simon_2019-news.jpg" src="dist/img/news/andre_simon_2019-news-preview.jpg" alt="Diana Henry and Meera Sodha at the André Simon Food and Drink book awards for 2018" class="tpr-news-row__image"> -->
+                <img src="dist/img/news/andre_simon_2019-news.jpg" alt="Diana Henry and Meera Sodha at the André Simon Food and Drink book awards for 2018" class="tpr-news-row__image">
             </div>
             <div class="col-xl-4">
                 <section class="tpr-news-row__content tpr-news-row__content--grey px-5 py-5">
@@ -54,8 +58,9 @@
                 </section>
             </div>
             <div class="col-xl-8 order-1 order-xl-2">
-                <img data-src="dist/img/news/winners-of-ahrc-news.jpg" src="dist/img/news/winners-of-ahrc-news-preview.jpg"
-                    alt="Rooftop view of Piet Oudolf's garden in Hummelo." class="tpr-news-row__image lazyload">
+                <!-- <img data-src="dist/img/news/winners-of-ahrc-news.jpg" src="dist/img/news/winners-of-ahrc-news-preview.jpg"
+                    alt="Rooftop view of Piet Oudolf's garden in Hummelo." class="tpr-news-row__image"> -->
+                <img src="dist/img/news/winners-of-ahrc-news.jpg" alt="Rooftop view of Piet Oudolf's garden in Hummelo." class="tpr-news-row__image">
             </div>
         </div>
 
@@ -338,7 +343,7 @@
         <!-- @include ./_footer.kit -->   
     <!-- footer -->
 
-    </div>
+    <!-- </div> -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -348,7 +353,7 @@
         crossorigin="anonymous"></script>
 
     <!-- testimonials     -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="vendors/slick.min.js"></script>
     <script src="dist/js/carousels.min.js"></script>
     <!-- testimonials  ends   -->
     <script src="dist/js/script.min.js"></script>
