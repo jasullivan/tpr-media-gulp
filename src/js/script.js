@@ -5,6 +5,7 @@ var navButton = document.querySelector(".navbar-toggler");
 var hamburger = document.querySelector(".icon-hamburger");
 var cross = document.querySelector(".icon-cross");
 
+// menu/cross icon changes
 navButton.addEventListener("click", function() {
     if (hamburger.classList.contains("show")) {
         hamburger.classList.add("hide");
@@ -35,40 +36,26 @@ navButton.addEventListener("click", function() {
 // fade in ends
 ********************************/
 
-
-
-
-// maybe dont need these
-// potentially needed for lazysizes see iamsteve blog
-
-// var lazy = function lazy() {
-//     document.addEventListener('lazyloaded', function (e) {
-//         e.target.parentNode.classList.add('image-loaded');
-//         e.target.parentNode.classList.remove('loading');
-//     });
-// }
-
-// lazy();
-
-// potentially needed for lazysizes see iamsteve blog
-
 /*******************************
-// carousel lazy loading - LAZYSIZES SEEMS TO WORK OK
+// nav-active 
 ********************************/
-// $(function () {
-//     return $("#tpr-carousel").on("slide.bs.carousel", function (ev) {
-//         var lazy;
-//         lazy = $(ev.relatedTarget).find("img[data-src]");
-//         lazy.attr("src", lazy.data("src"));
-//         lazy.removeAttr("data-src");
-//     });
-// });
+// const pageNames = [
+//     'about',
+//     'projects',
+//     'clients',
+//     'approach',
+//     'news',
+//     'contact'
+// ]
+
+// const body = document.querySelector('body');
+// const navLinks = document.querySelectorAll('.tpr-nav__link');
+// pageNames.forEach(pageName => {
+//     if(body.classList.contains(pageName)){
+//         console.log('true')
+//         navLinks.forEach(navLink => navLink.classList.contains(`nav-${pageName}`) && navLink.classList.add('nav-active'))
+//     }
+// })
 /*******************************
-// carousel lazy loading ends - LAZYSIZES SEEMS TO WORK OK
+// nav-active in ends
 ********************************/
-
-
-
-
-
-

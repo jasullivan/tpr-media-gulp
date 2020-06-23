@@ -1,8 +1,3 @@
-/* nav */
-/* ul.home li.home { font-weight:bold; } */
-ul.nav-about a.nav-about, ul.nav-approach a.nav-approach, ul.nav-clients a.nav-clients, ul.nav-contact a.nav-contact, ul.nav-projects a.nav-projects, ul.nav-news a.nav-news
- { color: $tpr-light-blue; }
-
 .navbar-light .navbar-toggler {
     border: none;
     position: relative;
@@ -46,4 +41,9 @@ ul.nav-about a.nav-about, ul.nav-approach a.nav-approach, ul.nav-clients a.nav-c
         }
     }
 }
-/* nav ends */
+.about { .nav-about { color: $tpr-light-blue; } }
+.projects { .nav-projects { color: $tpr-light-blue; } }
+.clients { .nav-clients { color: $tpr-light-blue; } }
+.approach { .nav-approach { color: $tpr-light-blue; } }
+.news { .nav-news { color: $tpr-light-blue; } }
+.contact { .nav-contact { color: $tpr-light-blue; } }
