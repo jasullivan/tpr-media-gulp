@@ -1,9 +1,6 @@
 /* general typography styling */
-body {
-    /* font-family: 'Open Sans', Arial, sans-serif; */
-    color: $tpr-color-primary;
-}
-h1,h2, h3, h4, h5, h6, p {
+body {color: $tpr-color-primary;}
+h1, h2, h3, h4, h5, h6, p {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 p, ul {font-size: $default-font-size;}
