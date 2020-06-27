@@ -8,12 +8,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    
     <link rel="stylesheet" type="text/css" media="screen" href="dist/css/main.min.css" />
-    <link rel="stylesheet" type="text/css" href="vendors/slick.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/slick.css" /> -->
 
+    <!-- head -->
+    <!-- @include ./_head-commonlinks.kit --> 
+    <!-- head -->
     
 </head>
 <body class="contact">
@@ -49,8 +51,25 @@
 
     <!-- google map section -->
     <div class="container pb-5">
-        <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.4570235687374!2d-0.1499237842274235!3d51.578186779646856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761a360290a221%3A0x1a4baafb37a0e7ae!2sMuswell+Hill+Rd%2C+Highgate%2C+London+N6+5FJ!5e0!3m2!1sen!2suk!4v1549378501510" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div id="google-map"></div>
+        <!-- <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.4570235687374!2d-0.1499237842274235!3d51.578186779646856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761a360290a221%3A0x1a4baafb37a0e7ae!2sMuswell+Hill+Rd%2C+Highgate%2C+London+N6+5FJ!5e0!3m2!1sen!2suk!4v1549378501510" frameborder="0" style="border:0" allowfullscreen></iframe> -->
     </div>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var location = {lat: -51.793, lng: -0.1474};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('google-map'), {
+                  zoom: 4, center: location});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: location, map: map});
+        }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2sHokliUmAcxomZW-cEzwyY9cBAPQ9KY&callback=initMap">
+    </script>
     <!--  google map section -->
 
     <!-- navbar -->
