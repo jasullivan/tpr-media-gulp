@@ -26,13 +26,13 @@ navButton.addEventListener("click", function() {
 /*******************************
 // fade in
 ********************************/
-window.onload = function () {
-    setTimeout(function () {
-        const fadeLoad = document.querySelector(".fadeLoad");
-        fadeLoad.style.pointerEvents = 'auto';
-        fadeLoad.style.opacity = 1;
-    }, 50);
-};
+// window.onload = function () {
+//     setTimeout(function () {
+//         const fadeLoad = document.querySelector(".fadeLoad");
+//         fadeLoad.style.pointerEvents = 'auto';
+//         fadeLoad.style.opacity = 1;
+//     }, 50);
+// };
 /*******************************
 // fade in ends
 ********************************/
