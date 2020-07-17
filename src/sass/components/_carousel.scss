@@ -3,8 +3,11 @@
   width: 100%;
   max-width: 1200px;
   /* margin: 20px auto 15px; */
-  margin: 10px auto 15px;
+  margin: 20px auto 25px;
   text-align: center;
+  @include respond(lg) {
+    margin: 10px auto 15px;
+  }
 }
 .carousel-control-prev, .carousel-control-next {
   width: 4rem;

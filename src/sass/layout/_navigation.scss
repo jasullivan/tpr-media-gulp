@@ -28,9 +28,10 @@
     &__social-icons {
         position: absolute;
         right: 8rem;
-        top: 2.5rem;
+        top: 3.5rem;
         @include respond(lg) {
             right: 2rem;
+            top: 2rem;
         }
         .icon {
             padding: 0 4px;

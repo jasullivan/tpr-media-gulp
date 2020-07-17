@@ -6,7 +6,7 @@
         &--left {
             text-align: center;
             padding-top: 0;
-            @include respond(md) {
+            @include respond(lg) {
                 text-align: left;
                 padding-top: 14.4rem;
             }
