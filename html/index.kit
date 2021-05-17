@@ -7,7 +7,12 @@
     <title>tpr media</title>
     <meta name="description" content="tpr media is a London-based communications agency committed to creating intelligent campaigns for the creative industries and projects with a social impact.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <script src="dist/js/picturefill.min.js" async></script>
+    <script src="dist/js/modernizr.js" async></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="dist/css/main.min.css" />
@@ -15,16 +20,18 @@
 
 </head>
 <body>
-    <!-- navbar -->
     <!-- @include ./_navigation.kit --> 
-    <!-- navbar -->
-    
-    <!-- <div class="fadeLoad"> -->
+    <div class="fadeLoad">
         <div id="tpr-carousel" class="carousel slide slider" data-ride="carousel">
             <div class="carousel-inner carousel-fade">
                 <div class="carousel-item active">
                     <a href="projects/case-study-out-of-thin-air.html">
-                        <img class="d-block w-100" src="dist/img/slider/Out-of-Thin-Air-slider.jpg" alt="Out of Thin Air: Black and white reconstruction of Icelandic crime scene">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/Out-of-Thin-Air-slider.jpg" alt="Out of Thin Air: Black and white reconstruction of Icelandic crime scene"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/Out-of-Thin-Air-slider.webp" type="image/webp" alt="Out of Thin Air: Black and white reconstruction of Icelandic crime scene">
+                            <source srcset="dist/img/slider/Out-of-Thin-Air-slider.jpg" type="image/jpg" alt="Out of Thin Air: Black and white reconstruction of Icelandic crime scene"> 
+                            <img src="dist/img/slider/Out-of-Thin-Air-slider.jpg" alt="Out of Thin Air: Black and white reconstruction of Icelandic crime scene">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>Out of Thin Air</h2>
                         </div>
@@ -32,7 +39,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/my-brother-the-terrorist.html">
-                        <img class="d-block w-100" src="dist/img/slider/My-Brother-The-Terrorist-slider.jpg" alt="My Brother the Terrorist: Presenter/director Robb Leech with film camera interviews his brother who became a radical Muslim, both are seated">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/My-Brother-The-Terrorist-slider.jpg" alt="My Brother the Terrorist: Presenter/director Robb Leech with film camera interviews his brother who became a radical Muslim, both are seated"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/My-Brother-The-Terrorist-slider.webp" type="image/webp" alt="My Brother the Terrorist: Presenter/director Robb Leech with film camera interviews his brother who became a radical Muslim, both are seated">
+                            <source srcset="dist/img/slider/My-Brother-The-Terrorist-slider.jpg" type="image/jpg" alt="My Brother the Terrorist: Presenter/director Robb Leech with film camera interviews his brother who became a radical Muslim, both are seated"> 
+                            <img src="dist/img/slider/My-Brother-The-Terrorist-slider.jpg" alt="My Brother the Terrorist: Presenter/director Robb Leech with film camera interviews his brother who became a radical Muslim, both are seated">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>My Brother The Terrorist</h2>
                         </div>
@@ -40,7 +52,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/the-year-the-townhall-shrank.html">
-                        <img class="d-block w-100" src="dist/img/slider/the-year-the-town-hall-shrank-slider.jpg" alt="The Year the Town Hall Shrank: Close-up of female resident at old people’s home">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/the-year-the-town-hall-shrank-slider.jpg" alt="The Year the Town Hall Shrank: Close-up of female resident at old people’s home"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/the-year-the-town-hall-shrank-slider.webp" type="image/webp" alt="The Year the Town Hall Shrank: Close-up of female resident at old people’s home">
+                            <source srcset="dist/img/slider/the-year-the-town-hall-shrank-slider.jpg" type="image/jpg" alt="The Year the Town Hall Shrank: Close-up of female resident at old people’s home"> 
+                            <img src="dist/img/slider/the-year-the-town-hall-shrank-slider.jpg" alt="The Year the Town Hall Shrank: Close-up of female resident at old people’s home">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>The Year the Town Hall Shrank</h2>
                         </div>
@@ -48,7 +65,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/case-study-tales-of-grim-sleeper.html">
-                        <img class="d-block w-100" src="dist/img/slider/tales-of-grim-sleeper-slider.jpg" alt="Tales of the Grim Sleeper: Director Nick Broomfield (left) with headphones and contributor Pam in foreground driving a car">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/tales-of-grim-sleeper-slider.jpg" alt="Tales of the Grim Sleeper: Director Nick Broomfield (left) with headphones and contributor Pam in foreground driving a car"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/tales-of-grim-sleeper-slider.webp" type="image/webp" alt="Tales of the Grim Sleeper: Director Nick Broomfield (left) with headphones and contributor Pam in foreground driving a car">
+                            <source srcset="dist/img/slider/tales-of-grim-sleeper-slider.jpg" type="image/jpg" alt="Tales of the Grim Sleeper: Director Nick Broomfield (left) with headphones and contributor Pam in foreground driving a car"> 
+                            <img src="dist/img/slider/tales-of-grim-sleeper-slider.jpg" alt="Tales of the Grim Sleeper: Director Nick Broomfield (left) with headphones and contributor Pam in foreground driving a car">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>Tales of the Grim Sleeper</h2>
                         </div>
@@ -56,7 +78,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/case-study-the-undateables.html">
-                        <img class="d-block w-100" src="dist/img/slider/the-undatables-slider.jpg" alt="Undateables: Eight contributors of Undateables series one">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/the-undatables-slider.jpg" alt="Undateables: Eight contributors of Undateables series one"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/the-undatables-slider.webp" type="image/webp" alt="Undateables: Eight contributors of Undateables series one">
+                            <source srcset="dist/img/slider/the-undatables-slider.jpg" type="image/jpg" alt="Undateables: Eight contributors of Undateables series one"> 
+                            <img src="dist/img/slider/the-undatables-slider.jpg" alt="Undateables: Eight contributors of Undateables series one">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>The Undateables</h2>
                         </div>
@@ -64,7 +91,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/case-study-no-fire-zone.html">
-                        <img class="d-block w-100" src="dist/img/slider/no-fire-zone-slider.jpg" alt="Close-up of three female victims of Sri Lanka’s Civil War in extreme distress">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/no-fire-zone-slider.jpg" alt="Close-up of three female victims of Sri Lanka’s Civil War in extreme distress"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/no-fire-zone-slider.webp" type="image/webp" alt="Close-up of three female victims of Sri Lanka’s Civil War in extreme distress">
+                            <source srcset="dist/img/slider/no-fire-zone-slider.jpg" type="image/jpg" alt="Close-up of three female victims of Sri Lanka’s Civil War in extreme distress"> 
+                            <img src="dist/img/slider/no-fire-zone-slider.jpg" alt="Close-up of three female victims of Sri Lanka’s Civil War in extreme distress">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>No Fire Zone: The Killing Fields of Sri Lanka</h2>
                         </div>
@@ -72,7 +104,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/top-boy.html">
-                        <img class="d-block w-100" src="dist/img/slider/Top-Boy-slider.jpg" alt="Top Boy: Four Top Boy cast members including Ashley Walters and Kane Robinson on an urban rooftop with a dog">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/Top-Boy-slider.jpg" alt="Top Boy: Four Top Boy cast members including Ashley Walters and Kane Robinson on an urban rooftop with a dog"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/Top-Boy-slider.webp" type="image/webp" alt="Top Boy: Four Top Boy cast members including Ashley Walters and Kane Robinson on an urban rooftop with a dog">
+                            <source srcset="dist/img/slider/Top-Boy-slider.jpg" type="image/jpg" alt="Top Boy: Four Top Boy cast members including Ashley Walters and Kane Robinson on an urban rooftop with a dog"> 
+                            <img src="dist/img/slider/Top-Boy-slider.jpg" alt="Top Boy: Four Top Boy cast members including Ashley Walters and Kane Robinson on an urban rooftop with a dog">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>Top Boy</h2>
                         </div>
@@ -80,7 +117,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/andre-simon-awards.html">
-                        <img class="d-block w-100" src="dist/img/slider/andre-simon-awards-slider.jpg" alt="Celebrity Chef Jamie Oliver mingles with guests at the annual Andr&#233; Simon Awards">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/andre-simon-awards-slider.jpg" alt="Celebrity Chef Jamie Oliver mingles with guests at the annual Andr&#233; Simon Awards"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/andre-simon-awards-slider.webp" type="image/webp" alt="Celebrity Chef Jamie Oliver mingles with guests at the annual Andr&#233; Simon Awards">
+                            <source srcset="dist/img/slider/andre-simon-awards-slider.jpg" type="image/jpg" alt="Celebrity Chef Jamie Oliver mingles with guests at the annual Andr&#233; Simon Awards"> 
+                            <img src="dist/img/slider/andre-simon-awards-slider.jpg" alt="Celebrity Chef Jamie Oliver mingles with guests at the annual Andr&#233; Simon Awards">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>Andr&#233; Simon Awards</h2>
                         </div>
@@ -88,7 +130,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/case-study-artem-sfx.html">
-                        <img class="d-block w-100" src="dist/img/slider/Artem-sfx-slider.jpg" alt="Artem: Two men dressed in Halo Masterchief costumes jumping with London landmarks in background">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/Artem-sfx-slider.jpg" alt="Artem: Two men dressed in Halo Masterchief costumes jumping with London landmarks in background"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/Artem-sfx-slider.webp" type="image/webp" alt="Artem: Two men dressed in Halo Masterchief costumes jumping with London landmarks in background">
+                            <source srcset="dist/img/slider/Artem-sfx-slider.jpg" type="image/jpg" alt="Artem: Two men dressed in Halo Masterchief costumes jumping with London landmarks in background"> 
+                            <img src="dist/img/slider/Artem-sfx-slider.jpg" alt="Artem: Two men dressed in Halo Masterchief costumes jumping with London landmarks in background">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>Artem</h2>
                         </div>
@@ -96,7 +143,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/inside-dior.html">
-                        <img class="d-block w-100" src="dist/img/slider/inside-dior-slider.jpg" alt="Inside Dior: Supermodel Bella Hadid on catwalk with other models">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/inside-dior-slider.jpg" alt="Inside Dior: Supermodel Bella Hadid on catwalk with other models"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/inside-dior-slider.webp" type="image/webp" alt="Inside Dior: Supermodel Bella Hadid on catwalk with other models">
+                            <source srcset="dist/img/slider/inside-dior-slider.jpg" type="image/jpg" alt="Inside Dior: Supermodel Bella Hadid on catwalk with other models"> 
+                            <img src="dist/img/slider/inside-dior-slider.jpg" alt="Inside Dior: Supermodel Bella Hadid on catwalk with other models">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>Inside Dior</h2>
                         </div>
@@ -104,7 +156,12 @@
                 </div>
                 <div class="carousel-item">
                     <a href="projects/case-study-grayson-perry.html">
-                        <img class="d-block w-100" src="dist/img/slider/Grayson-Perry-slider.jpg" alt="Grayson Perry tapestry">
+                        <!-- <img class="d-block w-100" src="dist/img/slider/Grayson-Perry-slider.jpg" alt="Grayson Perry tapestry"> -->
+                        <picture class="d-block w-100">
+                            <source srcset="dist/img/slider/Grayson-Perry-slider.webp" type="image/webp" alt="Grayson Perry tapestry">
+                            <source srcset="dist/img/slider/Grayson-Perry-slider.jpg" type="image/jpg" alt="Grayson Perry tapestry"> 
+                            <img src="dist/img/slider/Grayson-Perry-slider.jpg" alt="Grayson Perry tapestry">
+                        </picture>
                         <div class="carousel-caption">
                             <h2>All In The Best Possible Taste with Grayson Perry</h2>
                         </div>
@@ -129,11 +186,20 @@
         </div>
         <!-- tpr company statement -->
 
-        <!-- footer -->
-        <!-- @include ./_footer.kit -->   
-        <!-- footer -->
+        <!-- @include ./_footer.kit -->  
+    
+    </div>
+        
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                const fadeLoad = document.querySelector(".fadeLoad");
+                fadeLoad.style.pointerEvents = 'auto';
+                fadeLoad.style.opacity = 1;
+            }, 25);
+        };
+    </script>
 
-    <!-- </div> -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -20,9 +20,9 @@
     
 </head>
 <body class="approach">
-    <!-- navbar -->
+    
     <!-- @include ./_navigation.kit --> 
-    <!-- navbar -->
+    
 
     <!-- blue header bar -->
     <header class="container-fluid pt-4">
@@ -34,53 +34,62 @@
     </header>
     <!-- blue header bar -->
 
-    <!-- approach content -->
-    <main class="container">
-        <div class="row pt-5 pb-3">
-            <div class="col-11 mx-auto">
-                <section class="tpr-article">
-                    <h2 class="tpr-article__title">Strategy</h2>
-                    <p class="tpr-article__paragraph">No two businesses are the same and we believe in a personal approach. At the start of any project, we’ll ask you lots of questions. We’ll then work with you to define a clear strategy identifying your business aims, campaign objectives, target audience and challenges. From this point we’ll outline what we could do to support you and propose an activity plan. We’ll also let you know exactly what we need from you to maximise the impact of the campaign, and what the results might look like.</p>
-                </section>
+    <div class="fadeLoad">
+        <!-- approach content -->
+        <main class="container mb-5">
+            <div class="row pt-5 pb-3">
+                <div class="col-11 mx-auto">
+                    <section class="tpr-article">
+                        <h2 class="tpr-article__title">Strategy</h2>
+                        <p class="tpr-article__paragraph">No two businesses are the same and we believe in a personal approach. At the start of any project, we’ll ask you lots of questions. We’ll then work with you to define a clear strategy identifying your business aims, campaign objectives, target audience and challenges. From this point we’ll outline what we could do to support you and propose an activity plan. We’ll also let you know exactly what we need from you to maximise the impact of the campaign, and what the results might look like.</p>
+                    </section>
+                </div>
             </div>
-        </div>
-        <div class="row py-3">
-            <div class="col-11 mx-auto">
-                <section class="tpr-article">
-                    <h2 class="tpr-article__title">Storytelling</h2>
-                    <p class="tpr-article__paragraph">Once you’re happy with our strategy, we’ll define and simplify your key messages. We’ll create great stories to communicate your messages as clearly as possible and we’ll tell these stories in exciting and engaging ways.</p>
-                </section>
+            <div class="row py-3">
+                <div class="col-11 mx-auto">
+                    <section class="tpr-article">
+                        <h2 class="tpr-article__title">Storytelling</h2>
+                        <p class="tpr-article__paragraph">Once you’re happy with our strategy, we’ll define and simplify your key messages. We’ll create great stories to communicate your messages as clearly as possible and we’ll tell these stories in exciting and engaging ways.</p>
+                    </section>
+                </div>
             </div>
-        </div>
-        <div class="row py-3">
-            <div class="col-11 mx-auto">
-                <section class="tpr-article">
-                    <h2 class="tpr-article__title">Dynamic Media Marketing</h2>
-                    <p class="tpr-article__paragraph">We understand the media landscape. In addition to network of contacts built over two decades, we have access to a state-of-the-art media database which allows us to find the right people. We’ll work out where your audience are and
-                    how to reach them. We’ll look at what they want, and we’ll present your project to them in a way that grabs their
-                    attention.</p>
-                </section>
+            <div class="row py-3">
+                <div class="col-11 mx-auto">
+                    <section class="tpr-article">
+                        <h2 class="tpr-article__title">Dynamic Media Marketing</h2>
+                        <p class="tpr-article__paragraph">We understand the media landscape. In addition to network of contacts built over two decades, we have access to a state-of-the-art media database which allows us to find the right people. We’ll work out where your audience are and
+                        how to reach them. We’ll look at what they want, and we’ll present your project to them in a way that grabs their
+                        attention.</p>
+                    </section>
+                </div>
             </div>
-        </div>
-        <div class="row py-3">
-            <div class="col-11 mx-auto">
-                <section class="tpr-article">
-                    <h2 class="tpr-article__title">Analysis</h2>
-                    <p class="tpr-article__paragraph">We believe it’s important to learn from every campaign and to evaluate every project. We’ll closely monitor and analyse the impact of our campaigns and give you analysis of the successes and achievements alongside media cuttings,
-                    statistics and graphs. If we faced any challenges, we’ll be honest with you, making constructive suggestions that you can use to make your company even better.</p>
-                </section>
+            <div class="row py-3">
+                <div class="col-11 mx-auto">
+                    <section class="tpr-article">
+                        <h2 class="tpr-article__title">Analysis</h2>
+                        <p class="tpr-article__paragraph">We believe it’s important to learn from every campaign and to evaluate every project. We’ll closely monitor and analyse the impact of our campaigns and give you analysis of the successes and achievements alongside media cuttings,
+                        statistics and graphs. If we faced any challenges, we’ll be honest with you, making constructive suggestions that you can use to make your company even better.</p>
+                    </section>
+                </div>
             </div>
-        </div>
-    </main>
-    <!-- approach content -->
+        </main>
+        <!-- approach content -->
 
-    <!-- navbar -->
-    <!-- @include ./_testimonials.kit --> 
-    <!-- navbar -->
-
-    <!-- navbar -->
-    <!-- @include ./_footer.kit --> 
-    <!-- navbar -->
+        <!-- @include ./_testimonials.kit --> 
+            
+        <!-- @include ./_footer.kit --> 
+   
+    </div>
+                    
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                const fadeLoad = document.querySelector(".fadeLoad");
+                fadeLoad.style.pointerEvents = 'auto';
+                fadeLoad.style.opacity = 1;
+            }, 25);
+        };
+    </script>
 
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

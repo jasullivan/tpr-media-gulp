@@ -19,9 +19,9 @@
     
 </head>
 <body class="contact">
-    <!-- navbar -->
+    
     <!-- @include ./_navigation.kit --> 
-    <!-- navbar -->
+    
 
     <!-- blue header bar -->
     <header class="container-fluid pt-4">
@@ -32,53 +32,57 @@
     </header>
     <!-- blue header bar -->
 
-    <!-- contact details section -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 mx-auto py-5">
-                <ul class="tpr-statement-text">
-                    <li><span class="tpr-statement-text--highlight">tpr media</span> consultants</li>
-                    <li>3 Muswell Hill Road</li>
-                    <li>London</li>
-                    <li>N6 5FJ</li>
-                    <li class="tpr-statement-text__tel"><a href="tel:02083477020">+44 (0) 20 8347 7020</a></li>
-                    <li><a href="mailto:sophie@tpr-media.com">sophie@tpr-media.com</a></li>
-                </ul>
+    <div class="fadeLoad">
+        <!-- contact details section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mx-auto py-5 mb-5">
+                    <ul class="tpr-statement-text">
+                        <li><span class="tpr-statement-text--highlight">tpr media</span> consultants</li>
+                        <li>3 Muswell Hill Road</li>
+                        <li>London</li>
+                        <li>N6 5FJ</li>
+                        <li class="tpr-statement-text__tel"><a href="tel:02083477020">+44 (0) 20 8347 7020</a></li>
+                        <li><a href="mailto:sophie@tpr-media.com">sophie@tpr-media.com</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <!--  contact details  section -->
+        <!--  contact details  section -->
 
-    <!-- google map section -->
-    <div class="container pb-5">
-        <div id="google-map">
-        <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.4570235687374!2d-0.1499237842274235!3d51.578186779646856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761a360290a221%3A0x1a4baafb37a0e7ae!2sMuswell+Hill+Rd%2C+Highgate%2C+London+N6+5FJ!5e0!3m2!1sen!2suk!4v1549378501510" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        <!-- google map section -->
+        <!-- <div class="container pb-5">
+            <div id="google-map">
+            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.4570235687374!2d-0.1499237842274235!3d51.578186779646856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761a360290a221%3A0x1a4baafb37a0e7ae!2sMuswell+Hill+Rd%2C+Highgate%2C+London+N6+5FJ!5e0!3m2!1sen!2suk!4v1549378501510" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        </div>
+        <script>
+            function initMap() {
+            var location = {lat: -51.793, lng: -0.1474};
+            var map = new google.maps.Map(
+                document.getElementById('google-map'), {
+                    zoom: 4, center: location});
+            var marker = new google.maps.Marker({position: location, map: map});
+            }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2sHokliUmAcxomZW-cEzwyY9cBAPQ9KY&callback=initMap">
+        </script> -->
+        <!--  google map section -->
+
+        <!-- @include ./_testimonials.kit --> 
+        
+        <!-- @include ./_footer.kit --> 
     </div>
+                    
     <script>
-        // Initialize and add the map
-        function initMap() {
-          // The location of Uluru
-          var location = {lat: -51.793, lng: -0.1474};
-          // The map, centered at Uluru
-          var map = new google.maps.Map(
-              document.getElementById('google-map'), {
-                  zoom: 4, center: location});
-          // The marker, positioned at Uluru
-          var marker = new google.maps.Marker({position: location, map: map});
-        }
+        window.onload = function () {
+            setTimeout(function () {
+                const fadeLoad = document.querySelector(".fadeLoad");
+                fadeLoad.style.pointerEvents = 'auto';
+                fadeLoad.style.opacity = 1;
+            }, 25);
+        };
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2sHokliUmAcxomZW-cEzwyY9cBAPQ9KY&callback=initMap">
-    </script>
-    <!--  google map section -->
-
-    <!-- navbar -->
-    <!-- @include ./_testimonials.kit --> 
-    <!-- navbar -->
-
-    <!-- navbar -->
-    <!-- @include ./_footer.kit --> 
-    <!-- navbar -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
