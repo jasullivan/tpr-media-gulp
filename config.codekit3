@@ -3596,12 +3596,12 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/dist/img/logos/SmartSmart.jpg": {
+	"/dist/img/logos/Smart.jpg": {
 		"ft": 16384,
 		"iS": 12740,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/dist/img/logos/SmartSmart.jpg",
+		"oAP": "/dist/img/logos/Smart.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3609,12 +3609,12 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/dist/img/logos/SmartSmart_tiny.jpg": {
+	"/dist/img/logos/Smart_tiny.jpg": {
 		"ft": 16384,
 		"iS": 596,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/dist/img/logos/SmartSmart_tiny.jpg",
+		"oAP": "/dist/img/logos/Smart_tiny.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
