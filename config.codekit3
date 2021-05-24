@@ -9525,6 +9525,30 @@
 		"ou": "lpckwebp-default",
 		"rq": 75
 		},
+	"/dist/img/slider/eyimofe-slider.jpg": {
+		"ft": 16384,
+		"iS": 108247,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/eyimofe-slider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/img/slider/eyimofe-slider.webp": {
+		"ft": 8388608,
+		"iS": 28412,
+		"oA": 0,
+		"oAP": "/dist/img/slider/eyimofe-slider.webp",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-default",
+		"rq": 75
+		},
 	"/dist/img/slider/Grayson-Perry-slider.jpg": {
 		"ft": 16384,
 		"iS": 195620,
@@ -9645,6 +9669,78 @@
 		"ou": "lpckwebp-default",
 		"rq": 75
 		},
+	"/dist/img/slider/race-to-save-the-world-slider.jpg": {
+		"ft": 16384,
+		"iS": 195965,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/race-to-save-the-world-slider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/img/slider/race-to-save-the-world-slider.webp": {
+		"ft": 8388608,
+		"iS": 85034,
+		"oA": 0,
+		"oAP": "/dist/img/slider/race-to-save-the-world-slider.webp",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-default",
+		"rq": 75
+		},
+	"/dist/img/slider/stormborn-slider.jpg": {
+		"ft": 16384,
+		"iS": 104107,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/stormborn-slider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/img/slider/stormborn-slider.webp": {
+		"ft": 8388608,
+		"iS": 39552,
+		"oA": 0,
+		"oAP": "/dist/img/slider/stormborn-slider.webp",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-default",
+		"rq": 75
+		},
+	"/dist/img/slider/surviving-the-stone-age-slider.jpg": {
+		"ft": 16384,
+		"iS": 310285,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/surviving-the-stone-age-slider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/img/slider/surviving-the-stone-age-slider.webp": {
+		"ft": 8388608,
+		"iS": 188510,
+		"oA": 0,
+		"oAP": "/dist/img/slider/surviving-the-stone-age-slider.webp",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-default",
+		"rq": 75
+		},
 	"/dist/img/slider/tales-of-grim-sleeper-slider.jpg": {
 		"ft": 16384,
 		"iS": 67927,
@@ -9735,6 +9831,54 @@
 		"iS": 72892,
 		"oA": 0,
 		"oAP": "/dist/img/slider/Top-Boy-slider.webp",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-default",
+		"rq": 75
+		},
+	"/dist/img/slider/union-chapel-slider.jpg": {
+		"ft": 16384,
+		"iS": 112718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/union-chapel-slider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/img/slider/union-chapel-slider.webp": {
+		"ft": 8388608,
+		"iS": 38696,
+		"oA": 0,
+		"oAP": "/dist/img/slider/union-chapel-slider.webp",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-default",
+		"rq": 75
+		},
+	"/dist/img/slider/wildflowers-for-the-queen-slider.jpg": {
+		"ft": 16384,
+		"iS": 230388,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/wildflowers-for-the-queen-slider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/img/slider/wildflowers-for-the-queen-slider.webp": {
+		"ft": 8388608,
+		"iS": 118724,
+		"oA": 0,
+		"oAP": "/dist/img/slider/wildflowers-for-the-queen-slider.webp",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -20635,6 +20779,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/src/img/slider/eyimofe-slider.jpg": {
+		"ft": 16384,
+		"iS": 280402,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/eyimofe-slider.jpg",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-default",
+		"q": 89,
+		"rq": 75
+		},
 	"/src/img/slider/Grayson-Perry-slider.jpg": {
 		"ft": 16384,
 		"iS": 362840,
@@ -20700,6 +20857,45 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/src/img/slider/race-to-save-the-world-slider.jpg": {
+		"ft": 16384,
+		"iS": 484698,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/race-to-save-the-world-slider.jpg",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-default",
+		"q": 89,
+		"rq": 75
+		},
+	"/src/img/slider/stormborn-slider.jpg": {
+		"ft": 16384,
+		"iS": 245193,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/stormborn-slider.jpg",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-default",
+		"q": 89,
+		"rq": 75
+		},
+	"/src/img/slider/surviving-the-stone-age-slider.jpg": {
+		"ft": 16384,
+		"iS": 675310,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/surviving-the-stone-age-slider.jpg",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-default",
+		"q": 89,
+		"rq": 75
+		},
 	"/src/img/slider/tales-of-grim-sleeper-slider.jpg": {
 		"ft": 16384,
 		"iS": 88873,
@@ -20750,6 +20946,32 @@
 		"opt": 1,
 		"ou": "lpckwebp-default",
 		"q": 100,
+		"rq": 75
+		},
+	"/src/img/slider/union-chapel-slider.jpg": {
+		"ft": 16384,
+		"iS": 252610,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/union-chapel-slider.jpg",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-default",
+		"q": 89,
+		"rq": 75
+		},
+	"/src/img/slider/wildflowers-for-the-queen-slider.jpg": {
+		"ft": 16384,
+		"iS": 572659,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/slider/wildflowers-for-the-queen-slider.jpg",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-default",
+		"q": 89,
 		"rq": 75
 		},
 	"/src/img/team/portrait_eleanor.jpg": {
