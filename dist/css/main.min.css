@@ -631,6 +631,18 @@ a:hover {
   margin: 0 auto;
 }
 
+.tpr-testimonial {
+  padding: 1.5rem 0 1.5rem;
+  text-align: center;
+}
+.tpr-testimonial__quote {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.tpr-testimonial__source {
+  color: #007397;
+}
+
 .testimonial-wrapper {
   background: #E9E9E9;
   width: 100%;
@@ -716,6 +728,10 @@ a:hover {
 }
 
 .news .nav-news {
+  color: #92d4e9;
+}
+
+.testimonials .nav-testimonials {
   color: #92d4e9;
 }
 

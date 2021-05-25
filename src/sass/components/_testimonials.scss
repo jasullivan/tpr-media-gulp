@@ -1,3 +1,20 @@
+// for testimonials page 
+.tpr-testimonial {
+    padding: 1.5rem 0 1.5rem;
+    text-align: center;
+    &__quote {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    &__source {
+        color: $tpr-blue;
+    }
+}
+
+
+// for testimonials page 
+
+// for slider 
 .testimonial-wrapper {
     background: $color-vlight-grey;
     width: 100%;
@@ -15,4 +32,5 @@
         }
     }
 }
+// for slider 
 

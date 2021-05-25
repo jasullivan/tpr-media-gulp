@@ -11180,6 +11180,14 @@
 		"oAP": "/projects/what-you-taught-me-about-my-son.html",
 		"oF": 3
 		},
+	"/html/testimonials.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/testimonials.html",
+		"oF": 2
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
