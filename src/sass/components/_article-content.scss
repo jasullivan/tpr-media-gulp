@@ -52,6 +52,11 @@
         &:hover {
             color: $tpr-light-blue;  
         }
+        &--dark {
+            &:hover {
+                color: $tpr-dark-blue; 
+            }
+        }
     }
     /* you tube and google map styling */
     iframe {
