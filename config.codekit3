@@ -5360,6 +5360,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/img\/gallery\/smart-thumbnail-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 744,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/smart-thumbnail-preview.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/gallery\/smart-thumbnail-sml.jpg" : {
+      "ft" : 16384,
+      "iS" : 68811,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/smart-thumbnail-sml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/gallery\/smart-thumbnail.jpg" : {
+      "ft" : 16384,
+      "iS" : 209230,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/smart-thumbnail.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/gallery\/stormborn-thumbnail-preview.jpg" : {
       "ft" : 16384,
       "iS" : 491,
@@ -6153,6 +6192,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/img\/logos\/docSociety_tiny.jpg" : {
+      "ft" : 16384,
+      "iS" : 495,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logos\/docSociety_tiny.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/logos\/docSociety.jpg" : {
+      "ft" : 16384,
+      "iS" : 5865,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logos\/docSociety.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/logos\/DragonCafe_tiny.jpg" : {
       "ft" : 16384,
       "iS" : 1304,
@@ -6820,6 +6885,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/img\/logos\/VoltageTV.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/logos\/whitefox_tiny.jpg" : {
+      "ft" : 16384,
+      "iS" : 699,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logos\/whitefox_tiny.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/logos\/whitefox.jpg" : {
+      "ft" : 16384,
+      "iS" : 9831,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logos\/whitefox.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -9011,6 +9102,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/img\/projects\/smart-med.jpg" : {
+      "ft" : 16384,
+      "iS" : 153297,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/projects\/smart-med.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/projects\/smart-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 739,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/projects\/smart-preview.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/projects\/stormborn-lrg.jpg" : {
       "ft" : 16384,
       "iS" : 255936,
@@ -11078,6 +11195,14 @@
       "oAP" : "\/projects\/sisters-in-law.html",
       "oF" : 3
     },
+    "\/html\/projects\/smart-film-festival.kit" : {
+      "cB" : 1,
+      "ft" : 2048,
+      "hM" : 1,
+      "oA" : 0,
+      "oAP" : "\/projects\/smart-film-festival.html",
+      "oF" : 3
+    },
     "\/html\/projects\/stormborn.kit" : {
       "cB" : 1,
       "ft" : 2048,
@@ -11674,6 +11799,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/projects\/sisters-in-law.html",
+      "oF" : 0
+    },
+    "\/projects\/smart-film-festival.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/projects\/smart-film-festival.html",
       "oF" : 0
     },
     "\/projects\/stormborn.html" : {
@@ -16655,6 +16788,45 @@
       "q" : 88,
       "rq" : 75
     },
+    "\/src\/img\/gallery\/smart-thumbnail-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 1559,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/smart-thumbnail-preview.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/gallery\/smart-thumbnail-sml.jpg" : {
+      "ft" : 16384,
+      "iS" : 70847,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/smart-thumbnail-sml.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/gallery\/smart-thumbnail.jpg" : {
+      "ft" : 16384,
+      "iS" : 211160,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/smart-thumbnail.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/src\/img\/gallery\/stormborn-thumbnail-preview.jpg" : {
       "ft" : 16384,
       "iS" : 1455,
@@ -17448,6 +17620,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/src\/img\/logos\/docSociety_tiny.jpg" : {
+      "ft" : 16384,
+      "iS" : 1339,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logos\/docSociety_tiny.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/logos\/docSociety.jpg" : {
+      "ft" : 16384,
+      "iS" : 6708,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logos\/docSociety.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/src\/img\/logos\/DragonCafe_tiny.jpg" : {
       "ft" : 16384,
       "iS" : 1207,
@@ -18104,6 +18302,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/img\/logos\/VoltageTV.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/logos\/whitefox_tiny.jpg" : {
+      "ft" : 16384,
+      "iS" : 1543,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logos\/whitefox_tiny.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/logos\/whitefox.jpg" : {
+      "ft" : 16384,
+      "iS" : 10681,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logos\/whitefox.jpg",
       "oF" : 2,
       "oIPL" : 0,
       "opt" : 1,
@@ -20293,6 +20517,32 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/src\/img\/projects\/smart-med.jpg" : {
+      "ft" : 16384,
+      "iS" : 155619,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/projects\/smart-med.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/projects\/smart-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 1576,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/projects\/smart-preview.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/src\/img\/projects\/stormborn-lrg.jpg" : {
