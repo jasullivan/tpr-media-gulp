@@ -5126,6 +5126,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/img\/gallery\/race-to-save-the-world-thumbnail-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 767,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/race-to-save-the-world-thumbnail-preview.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/gallery\/race-to-save-the-world-thumbnail-sml.jpg" : {
+      "ft" : 16384,
+      "iS" : 85420,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/race-to-save-the-world-thumbnail-sml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/gallery\/race-to-save-the-world-thumbnail.jpg" : {
+      "ft" : 16384,
+      "iS" : 163873,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/gallery\/race-to-save-the-world-thumbnail.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/gallery\/raindance-film-festival-thumbnail-preview.jpg" : {
       "ft" : 16384,
       "iS" : 1399,
@@ -8868,6 +8907,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/img\/projects\/race-to-save-the-world-lrg.jpg" : {
+      "ft" : 16384,
+      "iS" : 246822,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/projects\/race-to-save-the-world-lrg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/projects\/race-to-save-the-world-med.jpg" : {
+      "ft" : 16384,
+      "iS" : 116548,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/projects\/race-to-save-the-world-med.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/projects\/race-to-save-the-world-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 864,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/projects\/race-to-save-the-world-preview.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/projects\/raindance-film-festival-lrg.jpg" : {
       "ft" : 16384,
       "iS" : 104036,
@@ -11329,14 +11407,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.html",
-      "oF" : 0
-    },
-    "\/news.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/news.html",
       "oF" : 0
     },
     "\/node_modules" : {
