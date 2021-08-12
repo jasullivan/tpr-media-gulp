@@ -2071,6 +2071,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dist\/img\/blog\/kings-head-theatre-news_400w.jpg" : {
+      "ft" : 16384,
+      "iS" : 66169,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/blog\/kings-head-theatre-news_400w.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/blog\/kings-head-theatre-news-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 699,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/blog\/kings-head-theatre-news-preview.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/blog\/kings-head-theatre-news.jpg" : {
+      "ft" : 16384,
+      "iS" : 127970,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/blog\/kings-head-theatre-news.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/img\/blog\/last-whites-of-eastend-news_400w.jpg" : {
       "ft" : 16384,
       "iS" : 17693,
@@ -10577,6 +10616,14 @@
       "oAP" : "\/blog\/keeping-culture-alive-this-summer.html",
       "oF" : 2
     },
+    "\/html\/blog\/kings-head-theatre-artistic-directors.kit" : {
+      "cB" : 1,
+      "ft" : 2048,
+      "hM" : 1,
+      "oA" : 0,
+      "oAP" : "\/blog\/kings-head-theatre-artistic-directors.html",
+      "oF" : 3
+    },
     "\/html\/blog\/last-whites-of-east-end.kit" : {
       "cB" : 1,
       "ft" : 2048,
@@ -13583,6 +13630,45 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/src\/img\/blog\/kings-head-theatre-news_400w.jpg" : {
+      "ft" : 16384,
+      "iS" : 66169,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/blog\/kings-head-theatre-news_400w.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/blog\/kings-head-theatre-news-preview.jpg" : {
+      "ft" : 16384,
+      "iS" : 699,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/blog\/kings-head-theatre-news-preview.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/img\/blog\/kings-head-theatre-news.jpg" : {
+      "ft" : 16384,
+      "iS" : 127970,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/blog\/kings-head-theatre-news.jpg",
+      "oF" : 2,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/src\/img\/blog\/last-whites-of-eastend-news_400w.jpg" : {
