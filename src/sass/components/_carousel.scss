@@ -2,16 +2,23 @@
 .slider {
   width: 100%;
   max-width: 1200px;
-  /* margin: 20px auto 15px; */
   margin: 20px auto 25px;
   text-align: center;
+
   @include respond(lg) {
     margin: 10px auto 15px;
   }
+
+  // new
+  @include respond(xlg) {
+    max-width: 1600px;
+  }
 }
+
 .carousel-control-prev, .carousel-control-next {
   width: 4rem;
   height: 4rem;
+
   @include respond(lg) {
     width: 5rem;
     height: 5rem;
@@ -20,10 +27,36 @@
   position: absolute;
   top: 44%;
 }
+
 .arrow-prev, .arrow-next {
   font-size: 2rem;
-  /* @include respond(lg) {
-     font-size: 3rem;
-   }  */
+}
+
+// new
+.tpr-statement {
+  @include respond(xlg) {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+  }
+}
+
+.carousel-caption {
+  &--dark {
+    color: $tpr-color-primary;
+  }
+
+  &--text-img {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  &__img {
+    width: 110px;
+    margin-left: -8px;
+    @include respond(sl) {
+      width: 150px;
+    }
+  }
 }
 
