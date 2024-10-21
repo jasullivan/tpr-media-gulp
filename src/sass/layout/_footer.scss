@@ -1,6 +1,33 @@
+// new
+.tpr-footer-container {
+    @include respond(xlg) {
+        height: 30vh;
+    }
+}
+
+
 .tpr-footer {
     @include tpr-max-width();
     color: $color-white;
+
+    // new
+    &--center {
+        @include respond(xlg) {
+            height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &--h-center {
+        @include respond(xlg) {
+            height: 30vh;
+            display: flex;
+            align-items: center;
+        }
+    }
+
     &__content {
         text-align: center;
         &--left {

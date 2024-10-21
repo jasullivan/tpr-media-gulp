@@ -5,16 +5,28 @@
        border: none; 
        outline: none;
     }
-}
+} 
 .navbar-brand {
     padding: 0;
-    height: 64px;
+    height: 65px;
     width: 50px;
     background: $color-white;
+
+    &__logo {
+        height: 64px; 
+        width: 50px; 
+    }
 }
 .tpr-nav {
     max-width:120rem;
     margin: 0 auto;
+
+    // new
+    @include respond(lg) {
+        height: 10vh;
+        min-height: 135px;
+    }
+
     &__link {
         font-size: 2.2rem;
         font-family: 'Amiri', serif;
@@ -29,10 +41,24 @@
         position: absolute;
         right: 8rem;
         top: 3.5rem;
+
         @include respond(lg) {
             right: 2rem;
-            top: 2rem;
+            top: 4rem;
         }
+
+        @include respond(xlg) {
+            right: 2rem;
+            top: 3rem;
+        }
+
+        // new
+        @include respond(xlg) {
+            a {
+                font-size: 2.5em;
+            }
+        }
+
         .icon {
             padding: 0 4px;
             &:hover {
